@@ -3,3 +3,12 @@ c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\CFUploader.pdb
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\obj\Debug\CFUploader.dll
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\obj\Debug\CFUploader.pdb
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\Id3.dll
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\Id3.Files.dll
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\Id3.pdb
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\Id3.Files.pdb
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\policy.2.0.taglib-sharp.dll
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\taglib-sharp.dll
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\policy.2.0.taglib-sharp.config
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\Newtonsoft.Json.dll
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\Newtonsoft.Json.xml

@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CFUploader;
+using System.IO;
 
 namespace Mp3FileTest
 {
@@ -83,6 +84,38 @@ namespace Mp3FileTest
 
             //Assert
             Assert.AreEqual(mp3File.File.FullName, file);
+        }
+
+        [TestMethod]
+        public void FileInfoObjectFromAudioFileIsInMp3FileObject()
+        {
+            //Arrange
+            var filename = "D:\\Music_Share\\Music\\Alnaes, Eyvind\\Piano Concerto in D major, Op 27\\1. Allegro moderato.MP3";
+            var file = new FileInfo(filename);
+
+            //Act
+            Mp3File mp3File = new Mp3File(filename);
+
+            //Assert
+            Assert.AreEqual(file.FullName, mp3File.File.FullName);
+        }
+
+        [TestMethod]
+        public void ItMakesAvailableId3DataInMp3FileObject()
+        {
+            //Arrange
+            var filename = "D:\\Music_Share\\Music\\Alnaes, Eyvind\\Piano Concerto in D major, Op 27\\1. Allegro moderato.MP3";
+            var album = "Piano Concerto in D major, Op 27";
+            var artist = "Alnaes, Eyvind";
+            var title = "1. Allegro moderato";
+
+            //Act
+            Mp3File mp3File = new Mp3File(filename);
+
+            //Assert
+            Assert.AreEqual(artist, mp3File.Artist);
+            Assert.AreEqual(album, mp3File.Album);
+            Assert.AreEqual(title, mp3File.Title);
         }
     }
 

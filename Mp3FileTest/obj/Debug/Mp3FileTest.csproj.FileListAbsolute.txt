@@ -5,3 +5,4 @@ c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\Mp3FileTest\bin
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\Mp3FileTest\bin\Debug\CFUploader.pdb
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\Mp3FileTest\obj\Debug\Mp3FileTest.dll
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\Mp3FileTest\obj\Debug\Mp3FileTest.pdb
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\Mp3FileTest\bin\Debug\taglib-sharp.dll
