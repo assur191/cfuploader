@@ -1,0 +1,10 @@
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\obj\Debug\CFUploader.Win.csprojResolveAssemblyReference.cache
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\obj\Debug\CFUploader.Win.Properties.Resources.resources
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\obj\Debug\CFUploader.Win.csproj.GenerateResource.Cache
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\bin\Debug\CFUploader.Win.exe.config
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\bin\Debug\CFUploader.Win.exe
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\bin\Debug\CFUploader.Win.pdb
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\bin\Debug\CFUploader.dll
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\bin\Debug\CFUploader.pdb
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\obj\Debug\CFUploader.Win.exe
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\obj\Debug\CFUploader.Win.pdb

@@ -1,0 +1,5 @@
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\obj\Debug\CFUploader.Core.csprojResolveAssemblyReference.cache
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\CFUploader.dll
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\bin\Debug\CFUploader.pdb
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\obj\Debug\CFUploader.dll
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader\obj\Debug\CFUploader.pdb

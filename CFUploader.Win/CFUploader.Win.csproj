@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>aaa3d266-fad4-45a4-bca2-2e299d4fea10</ProjectGuid>
+    <ProjectGuid>{AF17343D-AB1B-4A8C-80E3-4E6B3D7C9E62}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CFUploader.Win</RootNamespace>
@@ -73,6 +73,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CFUploader\CFUploader.Core.csproj">
+      <Project>{57cf77b7-d95e-4eed-b492-c960609519e6}</Project>
+      <Name>CFUploader.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
