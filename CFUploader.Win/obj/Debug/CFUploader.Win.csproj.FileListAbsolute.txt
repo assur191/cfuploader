@@ -8,3 +8,4 @@ c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\bin\Debug\CFUploader.pdb
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\obj\Debug\CFUploader.Win.exe
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\obj\Debug\CFUploader.Win.pdb
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\obj\Debug\CFUploader.Win.Form1.resources
