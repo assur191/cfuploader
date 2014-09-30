@@ -6,3 +6,5 @@ c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\TrackObjectTest
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\TrackObjectTest\obj\Debug\TrackObjectTest.csprojResolveAssemblyReference.cache
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\TrackObjectTest\obj\Debug\TrackObjectTest.dll
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\TrackObjectTest\obj\Debug\TrackObjectTest.pdb
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\TrackObjectTest\bin\Debug\Newtonsoft.Json.dll
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\TrackObjectTest\bin\Debug\Newtonsoft.Json.xml

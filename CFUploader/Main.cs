@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using RestSharp;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -10,7 +13,7 @@ namespace CFUploader
     public class Main
     {           
         
-        public static List<string> GetAudioFiles() 
+        public static string GetAudioFiles() 
         {
             
             string folder = "D:\\Music_Share\\Music\\Alnaes, Eyvind";
@@ -18,17 +21,23 @@ namespace CFUploader
 
             AudioFolderFiles mp3Folder = new AudioFolderFiles(folder, fileType); 
             string[] files = mp3Folder.AudioFiles;
-            List<string> mp3Files = new List<string>();            
+            List<Track> mp3Files = new List<Track>();
+            Hashtable dataset = new Hashtable();
            
             foreach(string file in files)
             {
                 AudioFile mp3File = new Mp3File(file);
-                Track track = new Track(mp3File);
+                Track track = new Track(mp3File);                
 
-                mp3Files.Add(track.GetJson());
+                mp3Files.Add(track);             
             }
 
-            return mp3Files;
+            dataset["dataset"] = mp3Files;
+            string json = JsonConvert.SerializeObject(dataset);
+            SendRest.SendJson(json);
+
+            return "";
         }
+
     }
 }

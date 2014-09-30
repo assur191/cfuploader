@@ -12,3 +12,5 @@ c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\bin\Debug\taglib-sharp.dll
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\bin\Debug\Newtonsoft.Json.dll
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\bin\Debug\Newtonsoft.Json.xml
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\bin\Debug\RestSharp.dll
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\CFUploader.Win\bin\Debug\RestSharp.xml

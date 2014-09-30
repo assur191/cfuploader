@@ -35,8 +35,8 @@ namespace TrackObjectTest
             Track track = new Track(file); 
 
             //Assert
-            Assert.AreEqual(firstName, track.ComposerFirstName);
-            Assert.AreEqual(lastName, track.ComposerLastName);            
+            Assert.AreEqual(firstName, track.composer_first_name);
+            Assert.AreEqual(lastName, track.composer_last_name);            
         }
     }
 }

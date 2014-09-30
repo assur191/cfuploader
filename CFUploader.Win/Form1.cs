@@ -19,9 +19,10 @@ namespace CFUploader.Win
 
         private void OnFolderButtonClick(object sender, EventArgs e)
         {
-            List<string> mp3Files = Main.GetAudioFiles();
+            string resp = Main.GetAudioFiles();
 
-            listBox1.DataSource = mp3Files;
+            //listBox1.DataSource = mp3Files;
+            textBox1.Text = resp;
         }
     }
 }

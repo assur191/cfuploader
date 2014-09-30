@@ -6,3 +6,5 @@ c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\NameFilterTest\
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\NameFilterTest\obj\Debug\NameFilterTest.csprojResolveAssemblyReference.cache
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\NameFilterTest\obj\Debug\NameFilterTest.dll
 c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\NameFilterTest\obj\Debug\NameFilterTest.pdb
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\NameFilterTest\bin\Debug\Newtonsoft.Json.dll
+c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\NameFilterTest\bin\Debug\Newtonsoft.Json.xml
