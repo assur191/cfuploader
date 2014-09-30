@@ -54,13 +54,13 @@ namespace CFUploader
 
             //functions used to decode json encoded data.
             var data1 = Uri.UnescapeDataString(data_text);
-            string da = Regex.Unescape(data_text);         
-            Dictionary<string, string> unserialized = JsonConvert.DeserializeObject<Dictionary<string, string>>(data_text);
-
-            foreach (KeyValuePair<string, string> entry in unserialized) 
+            string da = Regex.Unescape(data_text);  
+       
+            if (!String.IsNullOrEmpty(data_text))
             {
-                Debug.WriteLine("key: " + entry.Key + " value: " + entry.Value);
+                Upload.UploadAudioFiles(data_text, ".mp3");
             }
+
 
             //var cleaned_data = System.Web.HttpUtility.UrlDecode(data_text);
 
@@ -78,5 +78,6 @@ namespace CFUploader
             //MessageBox.Show(cleaned_data);
             context.Response.Close();
         }
+
     }
 }
