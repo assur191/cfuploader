@@ -1,1 +1,0 @@
-c:\users\trevor\documents\visual studio 2013\Projects\CFUploader\GetID3DataTest\obj\Debug\GetID3DataTest.csprojResolveAssemblyReference.cache
