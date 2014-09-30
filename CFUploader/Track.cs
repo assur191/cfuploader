@@ -21,7 +21,7 @@ namespace CFUploader
         public string track_path { get; set; }
         public string publisher { get; set; }
         public string composer_first_name { get; set; }
-        public string composer_middle_name { get; set; }
+        public string composer_middle_name { get; set; }        
 
         public Track(AudioFile file) 
         {
@@ -33,7 +33,7 @@ namespace CFUploader
             composer_first_name = (names.ContainsKey("first_name")) ? (string)names["first_name"] : "";
             composer_last_name = (names.ContainsKey("last_name")) ? (string)names["last_name"] : "";
             composer_middle_name = (names.ContainsKey("middle_name")) ? (string)names["middle_name"] : "";
-            work_title = "";
+            work_title = file.Album;
             album_title = file.Album;
             album_label = "";
             track_path = file.FullFileName;

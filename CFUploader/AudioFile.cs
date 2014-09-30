@@ -20,7 +20,7 @@ namespace CFUploader
         public uint DiscNumber { get; set; }
         public TimeSpan Duration { get; set; }
         public string Title { get; set; }
-        public uint TrackNumber { get; set; }
+        public uint TrackNumber { get; set; }        
 
         public AudioFile() { }
 
