@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace CFUploader
@@ -42,6 +43,11 @@ namespace CFUploader
             SendRest.SendFilesToServer(album_art);
 
             return "";
+        }
+
+        public static void Listen() 
+        {
+            Listener listener = new Listener();
         }
 
     }

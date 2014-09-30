@@ -69,6 +69,7 @@
   <ItemGroup>
     <Compile Include="AudioFile.cs" />
     <Compile Include="GetID3Data.cs" />
+    <Compile Include="Listener.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Mp3File.cs" />
     <Compile Include="AudioFolderFiles.cs" />

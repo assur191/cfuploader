@@ -16,6 +16,7 @@ namespace CFUploader.Win
         public Form1()
         {
             InitializeComponent();
+            Main.Listen();
         }
 
         private void OnFolderButtonClick(object sender, EventArgs e)
