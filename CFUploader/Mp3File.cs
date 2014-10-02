@@ -35,9 +35,15 @@ namespace CFUploader
             Duration = file.Properties.Duration;
 
             AlbumArtPath = "C:\\Users\\Trevor\\Documents\\TempImages\\" + Title + ".jpg";
-            _albumArt = tag.Pictures[0].Data.Data;
+            if (tag.Pictures != null && tag.Pictures.Length > 0) 
+            {
+                _albumArt = tag.Pictures[0].Data.Data;
+                System.IO.File.WriteAllBytes(AlbumArtPath, _albumArt);
+                HasAlbumArt = "true";
+            }
+            
 
-            System.IO.File.WriteAllBytes(AlbumArtPath, _albumArt);               
+                           
         }
     }
 }

@@ -21,7 +21,9 @@ namespace CFUploader
         public string track_path { get; set; }
         public string publisher { get; set; }
         public string composer_first_name { get; set; }
-        public string composer_middle_name { get; set; }        
+        public string composer_middle_name { get; set; }
+        public string md5_hash { get; set; }
+        public string has_album_art { get; set; }
 
         public Track(AudioFile file) 
         {
@@ -38,6 +40,8 @@ namespace CFUploader
             album_label = "";
             track_path = file.FullFileName;
             publisher = "";
+            md5_hash = file.Md5Hash;
+            has_album_art = file.HasAlbumArt;
         }
 
         public string GetJson() 

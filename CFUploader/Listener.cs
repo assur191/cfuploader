@@ -41,6 +41,7 @@ namespace CFUploader
 
         private void ProcessRequest()
         {
+            Debug.WriteLine("Listener started");
             result = listener.BeginGetContext(ListenerCallback, listener);
             result.AsyncWaitHandle.WaitOne();
         }
@@ -48,13 +49,15 @@ namespace CFUploader
         private void ListenerCallback(IAsyncResult result)
         {
             var context = listener.EndGetContext(result);
+            Debug.WriteLine("Received result.");
             Thread.Sleep(1000);
             var data_text = new StreamReader(context.Request.InputStream,
             context.Request.ContentEncoding).ReadToEnd();
 
             //functions used to decode json encoded data.
             var data1 = Uri.UnescapeDataString(data_text);
-            string da = Regex.Unescape(data_text);  
+            string da = Regex.Unescape(data_text);
+            Debug.WriteLine("listener callback");
        
             if (!String.IsNullOrEmpty(data_text))
             {

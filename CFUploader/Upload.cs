@@ -12,7 +12,7 @@ namespace CFUploader
     {
         public static void UploadAudioFiles(string data_text, string fileType)
         {
-            string targetPath = "C:\\Users\\Trevor\\Homestead\\Projects\\classicalforce\\public\\tracks\\";
+            string targetPath = "C:\\Users\\Trevor\\Homestead\\Projects\\classicalforce\\public\\tracks";
             string sourceFile;
             string destFile;
             string fileName;
